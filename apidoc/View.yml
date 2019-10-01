@@ -54,7 +54,12 @@ excludes:
 since: { android: "3.1.0", iphone: "3.2.0", ipad: "3.2.0" }
 platforms: [android, iphone, ipad]
 methods:
-
+  - name: startHeadingtracking
+    summary: Starts rotation of map following the heading of compass 
+  
+  - name: stopHeadingtracking
+    summary: Stop rotation 
+       
   - name: addAnnotation
     summary: Adds a new annotation to the map.
     parameters:
